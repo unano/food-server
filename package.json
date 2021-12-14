@@ -2,7 +2,6 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "dependencies": {
     "babelrc": "0.0.7",
@@ -28,7 +27,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node index.js"
+    "start": "nodemon --exec babel-node index.js"
   },
   "author": "gjq",
   "license": "ISC"

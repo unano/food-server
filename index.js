@@ -61,10 +61,8 @@ app.use('/api/users', usersRouter);
 app.use('/api/foods', foodsRouter);
 app.use('/api/foodKinds', foodKindsRouter);
 app.use(errHandler);
-let server = app.listen(process.env.PORT, () => {
+let server = app.listen(port, () => {
   loglevel.info(`Server running at ${port}`);
 });
 
 module.exports = server;
-
-web: node ./index.js
