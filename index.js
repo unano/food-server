@@ -61,7 +61,7 @@ app.use('/api/users', usersRouter);
 app.use('/api/foods', foodsRouter);
 app.use('/api/foodKinds', foodKindsRouter);
 app.use(errHandler);
-let server = app.listen(port, () => {
+let server = app.listen(process.env.PORT, () => {
   loglevel.info(`Server running at ${port}`);
 });
 
