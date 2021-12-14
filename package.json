@@ -27,7 +27,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "node index.js"
   },
   "author": "gjq",
   "license": "ISC"
