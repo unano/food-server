@@ -28,7 +28,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-specifier-resolution=node index.js"
   },
   "author": "gjq",
   "license": "ISC"
