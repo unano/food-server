@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babelrc": "0.0.7",
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "loglevel": "^1.7.1",
+    "mongoose": "^6.0.12",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "stripe": "^8.193.0",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.14.0",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "gjq",
+  "license": "ISC"
+}
