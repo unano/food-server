@@ -5,18 +5,18 @@ export const foodKinds = [
         'foodKindId':'001'
     },
     {
-        'foodKind':'拌面',
-        'foodKindEn':'Dry noodles',
+        'foodKind':'小吃',
+        'foodKindEn':'Food',
         'foodKindId':'002'
     },
     {
-        'foodKind':'炒面',
-        'foodKindEn':'Fried noodles',
+        'foodKind':'飲料',
+        'foodKindEn':'Dringking',
         'foodKindId':'003'
     },
     {
-        'foodKind':'臭面',
-        'foodKindEn':'Bad noodles',
+        'foodKind':'加料',
+        'foodKindEn':'add',
         'foodKindId':'004'
     }
   ];
